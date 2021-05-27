@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>/Users/michaeldzamba/Documents/thundiswitch/thundipiswitch2/thundipiswitch2.sch</h1>
+    <p>Thursday, April 08, 2021 at 10:53:04 AM</p>
+    <p>Eeschema (5.1.9-0-10_14)</p>
+    <p><b>Component Count:</b>57</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>C1</td><td>1</td><td>0.1uf</td><td>Device:C</td><td>~</td><td>Unpolarized capacitor</td><td></td></tr><tr><td>D1, D2, D3, D4, D5, D6</td><td>6</td><td>US1B</td><td>Diode:US1B</td><td>https://www.diodes.com/assets/Datasheets/ds16008.pdf</td><td>100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</td><td></td></tr><tr><td>D7, D8, D9, D10, D11, D12, D13</td><td>7</td><td>LED</td><td>Device:LED</td><td>~</td><td>Light emitting diode</td><td></td></tr><tr><td>F1, F2, F3, F4</td><td>4</td><td>Fuse</td><td>Device:Fuse</td><td>~</td><td>Fuse</td><td></td></tr><tr><td>J1</td><td>1</td><td>Screw_Terminal_01x02</td><td>Connector:Screw_Terminal_01x02</td><td>~</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J2</td><td>1</td><td>Conn_02x11_Odd_Even</td><td>Connector_Generic:Conn_02x12_Odd_Even</td><td>~</td><td>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>J4</td><td>1</td><td>Conn_01x06</td><td>Connector_Generic:Conn_01x06</td><td>~</td><td>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr><tr><td>K1, K2, K3</td><td>3</td><td>G5RL-K1-E_DC5</td><td>thundipiswitch2-rescue:G5RL-K1-E_DC5-ul</td><td></td><td></td><td></td></tr><tr><td>Q1, Q2, Q3, Q4, Q5, Q6</td><td>6</td><td>MMBT5551L</td><td>Transistor_BJT:MMBT5551L</td><td>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</td><td>0.6A Ic, 160V Vce, NPN Transistor, SOT-23</td><td></td></tr><tr><td>R1, R2, R3</td><td>3</td><td>R_Shunt</td><td>Device:R_Shunt</td><td>~</td><td>Shunt resistor</td><td></td></tr><tr><td>R4, R5, R7, R9, R10, R11, R13, R14, R15</td><td>9</td><td>10kohm</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R6, R8, R12</td><td>3</td><td>866Ohm</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R16, R18, R20, R22</td><td>4</td><td>1650ohm</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>R17, R19, R21</td><td>3</td><td>860ohm</td><td>Device:R</td><td>~</td><td>Resistor</td><td></td></tr><tr><td>S1, S2, S3</td><td>3</td><td>LP4-eswitch</td><td>thundipiswitch2-rescue:LP4-eswitch-Switch</td><td></td><td></td><td></td></tr><tr><td>U1</td><td>1</td><td>OKI-78SR-5_1.5-W36-C</td><td>Converter_DCDC:OKI-78SR-5_1.5-W36-C</td><td>https://power.murata.com/data/power/oki-78sr.pdf</td><td>1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical</td><td></td></tr><tr><td>U2</td><td>1</td><td>INA3221</td><td>Power_Management:INA3221</td><td>http://www.ti.com/lit/ds/symlink/ina3221.pdf</td><td>Triple-Channel High-Side Shunt and Bus Voltage Monitor with I2C and SMBUS Compatible Interface, QFN-16</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

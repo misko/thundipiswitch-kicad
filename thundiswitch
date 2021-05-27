@@ -1,0 +1,33 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/michaeldzamba/Documents/thundiswitch/thundiswitch.sch</h1>
+    <p>Tuesday, February 16, 2021 at 10:12:11 AM</p>
+    <p>Eeschema (5.1.9-0-10_14)</p>
+    <p><b>Component Count:</b>55</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4</td><td>4</td><td>1nF</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4</td><td>4</td><td>US1B</td><td>Diode:US1B</td><td>Diode_SMD:D_SMA</td><td>100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_02x07_Counter_Clockwise</td><td>Connector_Generic:Conn_02x07_Counter_Clockwise</td><td>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</td><td>Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2, J3, J4, J5, J6</td><td>5</td><td>Screw_Terminal_01x02</td><td>Connector:Screw_Terminal_01x02</td><td>footprints:1714971</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>K1, K2, K3, K4</td><td>4</td><td>SANYOU_SRD_Form_C</td><td>Relay:SANYOU_SRD_Form_C</td><td>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</td><td>Sanyo SRD relay, Single Pole Miniature Power Relay,</td><td></td></tr>
+    <tr><td>Q1, Q2, Q3, Q4</td><td>4</td><td>MMBT5551L</td><td>Transistor_BJT:MMBT5551L</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.6A Ic, 160V Vce, NPN Transistor, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11</td><td>11</td><td>R1k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R20, R21, R22, R23</td><td>4</td><td>2k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R24, R25, R26, R27</td><td>4</td><td>3.3k</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R90, R91, R92, R93</td><td>4</td><td>R0</td><td>Device:R</td><td>Resistor_SMD:R_2512_6332Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>U1, U2, U3, U4</td><td>4</td><td>EL817</td><td>Isolator:EL817</td><td>FOD817DSD:SOIC254P1016X385-4N</td><td>DC Optocoupler, Vce 35V, DIP-4</td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>OKI-78SR-5_1.5-W36-C</td><td>Converter_DCDC:OKI-78SR-5_1.5-W36-C</td><td>Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical</td><td>1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical</td><td></td></tr>
+    <tr><td>U10, U11, U12, U13</td><td>4</td><td>ACS712xLCTR-30A</td><td>Sensor_Current:ACS712xLCTR-30A</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8</td><td></td></tr>
+    <tr><td>U20</td><td>1</td><td>ADS1115IDGS</td><td>Analog_ADC:ADS1115IDGS</td><td>Package_SO:TSSOP-10_3x3mm_P0.5mm</td><td>Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/michaeldzamba/Documents/thundiswitch/thundiswitch.sch</source>
+    <date>Tuesday, February 16, 2021 at 10:13:13 AM</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>thundiswitch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K3">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024FFF0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>EL817</value>
+      <footprint>FOD817DSD:SOIC254P1016X385-4N</footprint>
+      <datasheet>http://www.everlight.com/file/ProductFile/EL817.pdf</datasheet>
+      <libsource lib="Isolator" part="EL817" description="DC Optocoupler, Vce 35V, DIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025D615</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025F274</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT5551L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602700B0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60277600</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602948E4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>EL817</value>
+      <footprint>FOD817DSD:SOIC254P1016X385-4N</footprint>
+      <datasheet>http://www.everlight.com/file/ProductFile/EL817.pdf</datasheet>
+      <libsource lib="Isolator" part="EL817" description="DC Optocoupler, Vce 35V, DIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6029491A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60294925</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT5551L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60294947</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60294951</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A2893</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>EL817</value>
+      <footprint>FOD817DSD:SOIC254P1016X385-4N</footprint>
+      <datasheet>http://www.everlight.com/file/ProductFile/EL817.pdf</datasheet>
+      <libsource lib="Isolator" part="EL817" description="DC Optocoupler, Vce 35V, DIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A28C9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A28D4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT5551L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A28F6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A2900</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AC3CE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>EL817</value>
+      <footprint>FOD817DSD:SOIC254P1016X385-4N</footprint>
+      <datasheet>http://www.everlight.com/file/ProductFile/EL817.pdf</datasheet>
+      <libsource lib="Isolator" part="EL817" description="DC Optocoupler, Vce 35V, DIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AC404</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AC40F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT5551L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AC431</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602AC43B</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>OKI-78SR-5_1.5-W36-C</value>
+      <footprint>Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical</footprint>
+      <datasheet>https://power.murata.com/data/power/oki-78sr.pdf</datasheet>
+      <libsource lib="Converter_DCDC" part="OKI-78SR-5_1.5-W36-C" description="1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602BB0BC</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>R0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60300781</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>R0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030ADD3</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>R0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030E094</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>R0</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030E0A1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60387054</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>ACS712xLCTR-30A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-30A" description="±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60386FF5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60380742</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>ACS712xLCTR-30A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-30A" description="±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038072D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60379F5A</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ACS712xLCTR-30A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-30A" description="±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60379F45</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6033F476</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ACS712xLCTR-30A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="ACS712xLCTR-30A" description="±30A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 66mV/A, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603372A6</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604312E9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60448ABC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60449036</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6045DB92</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6048CEFA</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60492E06</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60497FC1</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604983BF</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60499115</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049912B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60499135</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049913F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x07_Counter_Clockwise</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Counter_Clockwise" description="Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605924DD</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>footprints:1714971</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D8554</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>US1B</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1B" description="100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070EE03</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>US1B</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1B" description="100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60721CE9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>US1B</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1B" description="100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6072B07D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>US1B</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1B" description="100V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60734DAE</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>footprints:1714971</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602878DE</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>footprints:1714971</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60292FC2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>footprints:1714971</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6029BCDA</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>footprints:1714971</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602A3EC6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADS1015IDGS">
+      <aliases>
+        <alias>ADS1115IDGS</alias>
+      </aliases>
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1015.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1015IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Counter_Clockwise">
+      <description>Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_DCDC" part="OKI-78SR-3.3_1.5-W36-C">
+      <aliases>
+        <alias>OKI-78SR-5_1.5-W36-C</alias>
+        <alias>OKI-78SR-12_1.0-W36-C</alias>
+      </aliases>
+      <description>1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical</description>
+      <docs>https://power.murata.com/data/power/oki-78sr.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*muRata*OKI*78SR*Vertical*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OKI-78SR-3.3_1.5-W36-C</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MRA4003T3G">
+      <aliases>
+        <alias>MRA4004T3G</alias>
+        <alias>MRA4005T3G</alias>
+        <alias>MRA4006T3G</alias>
+        <alias>MRA4007T3G</alias>
+        <alias>NRVA4003T3G</alias>
+        <alias>NRVA4004T3G</alias>
+        <alias>NRVA4005T3G</alias>
+        <alias>NRVA4006T3G</alias>
+        <alias>NRVA4007T3G</alias>
+        <alias>US1A</alias>
+        <alias>US1B</alias>
+        <alias>US1D</alias>
+        <alias>US1G</alias>
+        <alias>US1J</alias>
+        <alias>US1K</alias>
+        <alias>US1M</alias>
+        <alias>US2AA</alias>
+        <alias>US2BA</alias>
+        <alias>US2DA</alias>
+        <alias>US2FA</alias>
+        <alias>US2GA</alias>
+        <alias>US2JA</alias>
+        <alias>US2KA</alias>
+        <alias>US2MA</alias>
+      </aliases>
+      <description>300V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MRA4003T3G</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC817">
+      <aliases>
+        <alias>EL817</alias>
+      </aliases>
+      <description>DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4</description>
+      <docs>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SANYOU_SRD_Form_C">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SANYOU_SRD_Form_C</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="ACS712xLCTR-05B">
+      <aliases>
+        <alias>ACS712xLCTR-20A</alias>
+        <alias>ACS712xLCTR-30A</alias>
+        <alias>ACS713xLCTR-20A</alias>
+        <alias>ACS713xLCTR-30A</alias>
+        <alias>ACS714xLCTR-05B</alias>
+        <alias>ACS714xLCTR-20A</alias>
+        <alias>ACS714xLCTR-30A</alias>
+        <alias>ACS714xLCTR-50A</alias>
+        <alias>ACS715xLCTR-20A</alias>
+        <alias>ACS715xLCTR-30A</alias>
+        <alias>ACS724xLCTR-05AB</alias>
+        <alias>ACS724xLCTR-10AB</alias>
+        <alias>ACS724xLCTR-10AU</alias>
+        <alias>ACS724xLCTR-20AB</alias>
+        <alias>ACS724xLCTR-20AU</alias>
+        <alias>ACS724xLCTR-30AB</alias>
+        <alias>ACS724xLCTR-30AU</alias>
+        <alias>ACS724xLCTR-50AB</alias>
+        <alias>ACS725xLCTR-10AU</alias>
+        <alias>ACS725xLCTR-20AB</alias>
+        <alias>ACS725xLCTR-20AU</alias>
+        <alias>ACS725xLCTR-30AB</alias>
+        <alias>ACS725xLCTR-30AU</alias>
+        <alias>ACS725xLCTR-40AB</alias>
+        <alias>ACS725xLCTR-50AB</alias>
+      </aliases>
+      <description>±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9m*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS712xLCTR-05B</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP-" type="passive"/>
+        <pin num="4" name="IP-" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="FILTER" type="passive"/>
+        <pin num="7" name="VIOUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/Library/Application Support/kicad/library/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Converter_DCDC">
+      <uri>/Library/Application Support/kicad/library/Converter_DCDC.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/Library/Application Support/kicad/library/Isolator.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/Library/Application Support/kicad/library/Relay.lib</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>/Library/Application Support/kicad/library/Sensor_Current.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/COM3B">
+      <node ref="K3" pin="1"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="2" name="/NO3">
+      <node ref="J2" pin="1"/>
+      <node ref="K3" pin="3"/>
+    </net>
+    <net code="3" name="/NC3">
+      <node ref="K3" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad2)">
+      <node ref="K3" pin="5"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="5" name="Net-(R5-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="6" name="/DATA3">
+      <node ref="U3" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="7" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="R7" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U20" pin="8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="U13" pin="8"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="K3" pin="2"/>
+      <node ref="U12" pin="8"/>
+      <node ref="K1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="K4" pin="2"/>
+      <node ref="K2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U11" pin="8"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="U11" pin="5"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U20" pin="1"/>
+      <node ref="U20" pin="3"/>
+      <node ref="U13" pin="5"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U12" pin="5"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="12" name="/COM1B">
+      <node ref="U10" pin="3"/>
+      <node ref="K1" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="13" name="/NO1">
+      <node ref="J6" pin="1"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="14" name="/NC1">
+      <node ref="J6" pin="2"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="K1" pin="5"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="17" name="/DATA1">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="18" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="20" name="/COM2B">
+      <node ref="U11" pin="4"/>
+      <node ref="U11" pin="3"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="21" name="/NO2">
+      <node ref="J5" pin="1"/>
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="22" name="/NC2">
+      <node ref="J5" pin="2"/>
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="23" name="Net-(D2-Pad2)">
+      <node ref="K2" pin="5"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(R3-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="25" name="/DATA2">
+      <node ref="J1" pin="13"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="28" name="/COM4B">
+      <node ref="U13" pin="3"/>
+      <node ref="U13" pin="4"/>
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="29" name="/NO4">
+      <node ref="J3" pin="1"/>
+      <node ref="K4" pin="3"/>
+    </net>
+    <net code="30" name="/NC4">
+      <node ref="J3" pin="2"/>
+      <node ref="K4" pin="4"/>
+    </net>
+    <net code="31" name="Net-(D4-Pad2)">
+      <node ref="K4" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="32" name="Net-(R7-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="33" name="/DATA4">
+      <node ref="J1" pin="11"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R8-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="35" name="Net-(Q4-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="36" name="+12V">
+      <node ref="J4" pin="1"/>
+      <node ref="R91" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R90" pin="2"/>
+      <node ref="R92" pin="2"/>
+      <node ref="R93" pin="2"/>
+    </net>
+    <net code="37" name="/COM1A">
+      <node ref="U10" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="R90" pin="1"/>
+    </net>
+    <net code="38" name="/COM2A">
+      <node ref="U11" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="R91" pin="1"/>
+    </net>
+    <net code="39" name="/COM3A">
+      <node ref="U12" pin="2"/>
+      <node ref="U12" pin="1"/>
+      <node ref="R92" pin="1"/>
+    </net>
+    <net code="40" name="/COM4A">
+      <node ref="R93" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="41" name="/VOUT4">
+      <node ref="R23" pin="2"/>
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="42" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="43" name="/VOUT3">
+      <node ref="R22" pin="2"/>
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="44" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="45" name="/VOUT2">
+      <node ref="R21" pin="2"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="46" name="Net-(C2-Pad1)">
+      <node ref="U11" pin="6"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="47" name="/VOUT1">
+      <node ref="R20" pin="2"/>
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="48" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="49" name="/SDA">
+      <node ref="R9" pin="1"/>
+      <node ref="J1" pin="10"/>
+      <node ref="U20" pin="9"/>
+    </net>
+    <net code="50" name="/SCL">
+      <node ref="R10" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U20" pin="10"/>
+    </net>
+    <net code="51" name="/ALRT">
+      <node ref="U20" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R21-Pad1)">
+      <node ref="U20" pin="5"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R23-Pad1)">
+      <node ref="U20" pin="7"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R20-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U20" pin="4"/>
+    </net>
+    <net code="55" name="Net-(R22-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U20" pin="6"/>
+    </net>
+  </nets>
+</export>

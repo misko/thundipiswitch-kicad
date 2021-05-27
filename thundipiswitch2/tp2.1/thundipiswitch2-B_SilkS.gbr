@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9-0-10_14)*%
+%TF.CreationDate,2021-04-23T09:03:30-07:00*%
+%TF.ProjectId,thundipiswitch2,7468756e-6469-4706-9973-776974636832,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.9-0-10_14)) date 2021-04-23 09:03:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.152400*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J4*%
+X171376005Y-109400000D02*
+G75*
+G03*
+X171376005Y-109400000I-381000J0D01*
+G01*
+%TO.C,J1*%
+X195381000Y-103022000D02*
+G75*
+G03*
+X195381000Y-103022000I-381000J0D01*
+G01*
+%TD*%
+M02*
