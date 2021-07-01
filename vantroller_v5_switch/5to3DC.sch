@@ -1,0 +1,190 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C7
+U 1 1 60B68A5E
+P 3800 2275
+F 0 "C7" H 3892 2321 50  0000 L CNN
+F 1 "10uf" H 3892 2230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3800 2275 50  0001 C CNN
+F 3 "~" H 3800 2275 50  0001 C CNN
+	1    3800 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 60B690F3
+P 3800 2375
+F 0 "#PWR056" H 3800 2125 50  0001 C CNN
+F 1 "GND" H 3805 2202 50  0000 C CNN
+F 2 "" H 3800 2375 50  0001 C CNN
+F 3 "" H 3800 2375 50  0001 C CNN
+	1    3800 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 60B6D608
+P 1250 1650
+F 0 "BT1" H 975 1700 50  0000 L CNN
+F 1 "Battery_Cell" H 775 1600 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1250 1710 50  0001 C CNN
+F 3 "~" V 1250 1710 50  0001 C CNN
+	1    1250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR048
+U 1 1 60B6E4D1
+P 1250 1750
+F 0 "#PWR048" H 1250 1500 50  0001 C CNN
+F 1 "GND" H 1255 1577 50  0000 C CNN
+F 2 "" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60B6ED75
+P 1500 1550
+F 0 "C4" H 1592 1596 50  0000 L CNN
+F 1 "47uf" H 1592 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1500 1550 50  0001 C CNN
+F 3 "~" H 1500 1550 50  0001 C CNN
+	1    1500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 60B716C8
+P 1500 1650
+F 0 "#PWR049" H 1500 1400 50  0001 C CNN
+F 1 "GND" H 1505 1477 50  0000 C CNN
+F 2 "" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1450 1500 1450
+$Comp
+L Transistor_FET:SI527DJ U5
+U 1 1 60B79AC9
+P 2700 1275
+F 0 "U5" H 2700 1300 50  0000 C CNN
+F 1 "SI527DJ" H 2700 1209 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Dual" H 2700 1275 50  0001 C CNN
+F 3 "" H 2700 1275 50  0001 C CNN
+	1    2700 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:SI527DJ U6
+U 1 1 60B7A72F
+P 4175 1525
+F 0 "U6" H 4175 1550 50  0000 C CNN
+F 1 "SI527DJ" H 4175 1459 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Dual" H 4175 1525 50  0001 C CNN
+F 3 "" H 4175 1525 50  0001 C CNN
+	1    4175 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 1800 1450
+Connection ~ 1500 1450
+Wire Wire Line
+	2800 1575 3200 1575
+$Comp
+L Device:R_Small R28
+U 1 1 60B80503
+P 3200 1475
+F 0 "R28" H 3259 1521 50  0000 L CNN
+F 1 "470k" H 3259 1430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3200 1475 50  0001 C CNN
+F 3 "~" H 3200 1475 50  0001 C CNN
+	1    3200 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 60B81A6E
+P 3200 1375
+F 0 "#PWR053" H 3200 1125 50  0001 C CNN
+F 1 "GND" H 3205 1202 50  0000 C CNN
+F 2 "" H 3200 1375 50  0001 C CNN
+F 3 "" H 3200 1375 50  0001 C CNN
+	1    3200 1375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 1575 3475 1575
+Connection ~ 3200 1575
+Wire Wire Line
+	3475 1575 3475 1825
+Wire Wire Line
+	3475 1825 4075 1825
+Wire Wire Line
+	3800 2175 3800 2150
+Wire Wire Line
+	3800 1725 4075 1725
+Wire Wire Line
+	4275 1725 4525 1725
+Wire Wire Line
+	4525 1725 4525 1450
+Wire Wire Line
+	1800 1775 2600 1775
+Wire Wire Line
+	2600 1775 2600 1675
+Wire Wire Line
+	1800 1450 1800 1775
+Wire Wire Line
+	2800 1675 2800 1750
+Wire Wire Line
+	2800 1750 3650 1750
+Wire Wire Line
+	3650 1750 3650 1450
+Wire Wire Line
+	3650 1450 4525 1450
+Connection ~ 4525 1450
+Wire Wire Line
+	4525 1450 4800 1450
+$Comp
+L power:+3.3V #PWR057
+U 1 1 60B886BB
+P 4800 1450
+F 0 "#PWR057" H 4800 1300 50  0001 C CNN
+F 1 "+3.3V" H 4815 1623 50  0000 C CNN
+F 2 "" H 4800 1450 50  0001 C CNN
+F 3 "" H 4800 1450 50  0001 C CNN
+	1    4800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2150 4700 2150
+Connection ~ 3800 2150
+Wire Wire Line
+	3800 2150 3800 1725
+Text Label 4700 2150 0    50   ~ 0
+OKI3.3
+Text Label 3475 1375 0    50   ~ 0
+OKI3.3
+Wire Wire Line
+	3475 1375 3475 1575
+Connection ~ 3475 1575
+Text GLabel 3475 1375 0    50   Input ~ 0
+OKI3.3
+$EndSCHEMATC
